@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cources-title{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding: 20px;
+}
+.cources{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    padding: 20px;
+}
+@media screen and (max-width: 850px) {
+   .cources{
+    flex-wrap: wrap;
+   }    
+}
+.cources-content{
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.cources-content img{
+    width: 100%;
+    max-width: 600px;
+}

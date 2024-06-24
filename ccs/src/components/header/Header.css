@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
@@ -23,4 +24,11 @@
 .header-image{
     width: 100%;
     max-width: 500px;
+}
+
+@media screen and (max-width: 1230px){
+   .header-content{
+    margin-top: 100px;
+   }
+    
 }

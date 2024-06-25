@@ -7,7 +7,8 @@
     justify-content: center;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    align-items: center;
+    height: 20vh;
     padding: 20px;
 }
 .cources{

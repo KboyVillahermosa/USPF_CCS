@@ -4,28 +4,5 @@
 }
 
 .nav:hover{
-    color: #FACA15 !important;
-
+  color: blue !important;
 }
-.navbar {
-    transition: background-color 0.3s ease;
-  }
-  
-  .navbar-scrolled {
-    background-color: rgba(0, 0, 0, 0.8); /* Adjust the color and opacity as needed */
-    color: black;
-  }
-  
-
-  @media screen and (max-width: 1230px){
-    .header{
-        height: auto;
-    }
-    
-}
-
-@media screen and (max-width: 770px){
-   .nav{
-    backdrop-filter: blur(50px);
-   }
- }

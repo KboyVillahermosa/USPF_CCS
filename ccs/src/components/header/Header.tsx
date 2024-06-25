@@ -22,8 +22,8 @@ const Header: React.FC = () => {
     <main className="dark:bg-gray-800">
       <div className="header">
         <div className="header-content">
-          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-yellow-300 dark:text-white md:text-5xl lg:text-6xl uppercase">
-            USPF <span className="text-yellow-300 dark:text-blue-500">College of Computer</span> <span className="text-blue-100">Studies</span>
+          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-yellow-300 dark:text-yellow-300 md:text-5xl lg:text-6xl uppercase">
+            USPF <span className="text-yellow-300 dark:text-blue-500">College of Computer</span> <span className="text-blue-500">Studies</span>
           </h1>
           <p className="text-lg font-normal text-white dark:text-gray-400 lg:text-xl">
           Shape the future line by line. Join the  next generation of tech innovators

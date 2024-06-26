@@ -2,17 +2,11 @@
     padding: 0;
     margin: 0;
 }
-.about-title{
-    justify-content: center;
-    align-items: center;
+.about-header{
     display: flex;
-    height: 20vh;
-
-}
-.slider{
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    display: flex;
     height: 100vh;
 }
-

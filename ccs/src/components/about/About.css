@@ -9,4 +9,27 @@
     flex-wrap: wrap;
     align-items: center;
     height: 100vh;
+    padding: 20px;
+}
+
+.tab-header{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tab-content{
+    width: 100%;
+    margin: 60px 30px;
+    max-width: 500px;
+}
+
+.tab-image img{
+    width: 100%;
+    max-width: 400px;
+}
+@media screen and (max-width: 1230px){
+    .about-header{
+        height: auto;
+    }
 }

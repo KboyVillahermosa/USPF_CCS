@@ -5,7 +5,9 @@ import './Navbar.css'
 
 export function Component() {
   return (
-    <Navbar fluid rounded className="fixed z-10 w-full ">
+    <>
+     <main className="dark:bg-gray-900 bg-blue-100">
+    <Navbar fluid rounded className="dark:bg-gray-900 bg-blue-50">
       <Navbar.Brand href="/">
         <img src="/ccs.png" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">USPF CCS</span>
@@ -27,5 +29,7 @@ export function Component() {
         <Navbar.Link href="#" className="nav">Contact</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
+    </main>
+    </>
   );
 }

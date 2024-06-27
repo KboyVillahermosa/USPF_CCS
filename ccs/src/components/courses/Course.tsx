@@ -4,7 +4,7 @@ import './Course.css'
 const Course:React.FC = () => {
   return (
     <>
-     <main className="dark:bg-gray-800">
+     <main className="dark:bg-gray-900">
     <div className="cources-title">
         <div className="title-content">
     <h1 className="mb-4 text-2xl font-extrabold leading-none  text-gray-900  dark:text-white uppercase">

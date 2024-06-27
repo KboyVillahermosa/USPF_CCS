@@ -11,13 +11,13 @@
     "format:check": "prettier . --check",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "tsc --noEmit",
-    "postinstall": "npm install"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "flowbite-react": "^0.8.0",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
+    "react-awesome-shapes": "^0.1.12",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.23.1"

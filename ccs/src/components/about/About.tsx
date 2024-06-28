@@ -7,7 +7,7 @@ import "./About.css";
 const About: React.FC = () => {
   return (
     <>
-      <main className="dark:bg-gray-900">
+      <main className="dark:bg-gray-900 bg-blue-50">
         <div className="about-header">
           <div className="about-content">
             <div className="overflow-x-auto">
@@ -15,8 +15,15 @@ const About: React.FC = () => {
                 <Tabs.Item title="Dean" icon={HiUserCircle} className="tabs">
                   <div className="tab-header">
                     <div className="tab-content">
-                    <Blockquote>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."
-                    </Blockquote>
+                    <h1 className="text-gray-900 dark:text-white">Sir Gian Cataraja</h1>
+                     <p className="text-gray-900 dark:text-white mt-5">It contains tons of predesigned components and pages starting from login screen to complex dashboard.
+                       Perfect choice for your next SaaS application."</p>
+
+                       <p className="text-gray-900 dark:text-white mt-5">It contains tons of predesigned components and pages starting from login screen to complex dashboard.
+                       Perfect choice for your next SaaS application."</p>
+
+                       <p className="text-gray-900 dark:text-white mt-5">It contains tons of predesigned components and pages starting from login screen to complex dashboard.
+                       Perfect choice for your next SaaS application."</p>
                     </div>
                     <div className="tab-image">
                       <img src="/sir-gian.jpg" alt="" />
@@ -26,8 +33,15 @@ const About: React.FC = () => {
                 <Tabs.Item title="Adviser" icon={MdDashboard}>
                 <div className="tab-header">
                     <div className="tab-content">
-                    <Blockquote>" It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."
-                    </Blockquote>
+                    <h1 className="text-gray-900 dark:text-white">Joan Val</h1>
+                     <p className="text-gray-900 dark:text-white mt-5">It contains tons of predesigned components and pages starting from login screen to complex dashboard.
+                       Perfect choice for your next SaaS application."</p>
+
+                       <p className="text-gray-900 dark:text-white mt-5">It contains tons of predesigned components and pages starting from login screen to complex dashboard.
+                       Perfect choice for your next SaaS application."</p>
+
+                       <p className="text-gray-900 dark:text-white mt-5">It contains tons of predesigned components and pages starting from login screen to complex dashboard.
+                       Perfect choice for your next SaaS application."</p>
                     </div>
                     <div className="tab-image">
                       <img src="/ma'am-jo.jpg" alt="" />

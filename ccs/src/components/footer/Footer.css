@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.facebook{
+    font-size: clamp(1.5625rem, 0.7813rem + 2.5vw, 2.1875rem);
+}
+.instagram{
+    font-size: clamp(1.5625rem, 0.7813rem + 2.5vw, 2.1875rem);
+}
+.tiktok{
+    font-size: clamp(1.5625rem, 0.7813rem + 2.5vw, 2.1875rem);
+}

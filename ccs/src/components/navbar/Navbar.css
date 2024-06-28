@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+.navbar{
+  backdrop-filter: blur(20px);
+}
 
 .nav:hover{
   color: blue !important;

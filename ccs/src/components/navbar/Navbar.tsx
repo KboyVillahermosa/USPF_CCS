@@ -6,8 +6,8 @@ import './Navbar.css'
 export function Component() {
   return (
     <>
-     <main className="dark:bg-gray-900 bg-blue-100">
-    <Navbar fluid rounded className="dark:bg-gray-900 bg-blue-50">
+     <main className="dark:bg-gray-900 bg-blue-50">
+    <Navbar fluid rounded className="navbar dark:bg-gray-900 bg-transparent fixed w-full z-10 ">
       <Navbar.Brand href="/">
         <img src="/ccs.png" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">USPF CCS</span>

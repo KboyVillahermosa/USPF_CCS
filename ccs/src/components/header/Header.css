@@ -10,17 +10,22 @@
     flex-direction: row;
     align-items: center;
     height: 100vh;
-    flex-wrap: wrap;
     padding: 10px;
-    background-image:  url(/blur2.svg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    background:  url(/blur9.svg) no-repeat center ;
+    background-size: cover;
 
 }
-@media screen and (max-width: 1250px) {
+
+@media screen and (max-width: 1000px) {
     .header{
         background-position: center;
+        background-size: cover;
+    }
+    
+}
+@media screen and (max-width: 1100px) {
+    .header{
+        flex-wrap: wrap;
     }
     
 }

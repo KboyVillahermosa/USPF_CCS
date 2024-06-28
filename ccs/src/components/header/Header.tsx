@@ -29,9 +29,8 @@ const Header: React.FC = () => {
             </span>
             <span className="text-blue-500 dark:text-yellow-300"> Studies</span>
           </h1>
-          <p className="text-lg font-normal text-gray-900 dark:text-gray-400 lg:text-xl">
-            Shape the future line by line. Join the next generation of tech
-            innovators
+          <p className="text-lg font-normal text-gray-900 dark:text-white lg:text-xl">
+           <span className="text-pink-600">Shape</span> the future line by line. <span className="text-indigo-300">Join</span> the next <span className="text-yellow-300">generation</span> of <span className="text-green-300 underline">tech innovators</span> 
           </p>
         </div>
         <div className="header-image">

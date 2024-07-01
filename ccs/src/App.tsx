@@ -5,6 +5,8 @@ import Course from "./components/courses/Course";
 import Testimonials from "./components/testimonials/Testimonials";
 import About from "./components/about/About";
 import Footer from "./components/footer/Footer"
+import Prospectus from "./components/prospectus/Prospectus";
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
          </>} />     
          <Route path='/about' element={ <About />} />
          <Route path='/testimonials' element={ <Testimonials />} />
+         <Route path='/prospectus' element={<Prospectus />} /> 
       </Routes>
     </Router>
     </>

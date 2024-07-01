@@ -9,3 +9,20 @@
 .nav:hover{
   color: blue !important;
 }
+
+.dropdown:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 770px){
+  .dropdown {
+    margin-left: 4px;
+    margin-top: 8px;
+    padding: 8px;
+    border-bottom: 1px solid #374151;
+  }
+  .dropdown:hover{
+      background: #374151;
+  }
+
+}

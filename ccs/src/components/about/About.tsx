@@ -1,5 +1,5 @@
 import React from "react";
-import { Tabs, Blockquote  } from "flowbite-react";
+import { Tabs } from "flowbite-react";
 import { HiUserCircle } from "react-icons/hi";
 import { MdDashboard } from "react-icons/md";
 import "./About.css";

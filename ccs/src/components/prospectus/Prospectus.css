@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.prospectus-title-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40vh;
+    justify-content: center;
+}
+
+.prospectus{
+    display: flex;
+    flex-direction: row;;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 20px;
+    gap: 20px;
+}
+.prospectus-content{
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+.prospectus-content img{
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+}

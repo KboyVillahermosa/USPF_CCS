@@ -38,7 +38,7 @@ export function Component() {
               About
             </Navbar.Link>
             
-            <div className="dropdown text-gray-900 dark:text-gray-400">
+            <div className="dropdown border-white dark:border-gray-600 text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-blue-600">
               <Dropdown
                 label=""
                 dismissOnClick={false}

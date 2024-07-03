@@ -19,10 +19,8 @@
     margin-left: 4px;
     margin-top: 8px;
     padding: 8px;
-    border-bottom: 1px solid #374151;
+    border-bottom: 1px solid;
   }
-  .dropdown:hover{
-      background: #374151;
-  }
+
 
 }

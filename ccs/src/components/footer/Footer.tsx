@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
             <FaInstagramSquare className="instagram text-blue-400 hover:text-red-500 " />
           </div>
           <div className="footer-content">
-          <FaGithubSquare  className="instagram text-blue-400 hover:text-gray-900 " />
+          <FaGithubSquare  className="instagram text-blue-400 hover:text-gray-900 dark:hover:text-white" />
           </div>
         </div>
         <div className="footer-text">

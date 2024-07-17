@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ccs-header{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+}

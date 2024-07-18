@@ -1,79 +1,82 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react'
 import './Officers.css'
 
-// Example officer data
-const officers = [
-    {
-        name: 'Officer 1',
-        position: 'President',
-        bio: 'Officer 1 is responsible for overseeing all activities and ensuring the smooth operation of CCSST. With a passion for technology and leadership, they drive the organization towards achieving its goals.',
-        imageUrl: '/ccs.png'
-    },
-    {
-        name: 'Officer 2',
-        position: 'Vice President',
-        bio: 'Officer 2 is dedicated to supporting the President and coordinating various initiatives within CCSST. With a strong background in technology and management, they contribute to the organization’s growth and success.',
-        imageUrl: '/path/to/photo2.jpg'
-    },
-
-    {
-      name: 'Officer 3',
-      position: 'Vice President',
-      bio: 'Officer 2 is dedicated to supporting the President and coordinating various initiatives within CCSST. With a strong background in technology and management, they contribute to the organization’s growth and success.',
-      imageUrl: '/path/to/photo2.jpg'
-  },
-  {
-    name: 'Officer 4',
-    position: 'Vice President',
-    bio: 'Officer 2 is dedicated to supporting the President and coordinating various initiatives within CCSST. With a strong background in technology and management, they contribute to the organization’s growth and success.',
-    imageUrl: '/path/to/photo2.jpg'
-},
-    // Add more officers as needed
-];
-
-const Officers: React.FC = () => {
-    const [activeIndex, setActiveIndex] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setActiveIndex((prevIndex) => (prevIndex === officers.length - 1 ? 0 : prevIndex + 1));
-        }, 5000); // Auto slide every 5 seconds
-
-        return () => clearInterval(interval);
-    }, []);
-
-    const handleSlideChange = (index: number) => {
-        setActiveIndex(index);
-    };
-
-    return (
-   
+const Officers:React.FC = () => {
+  return (
+    <>
     <main className="about-ccsst bg-blue-50 dark:bg-gray-900">
-        <div className="officer-header">
-        <div className="officers-slider">
-            {officers.map((officer, index) => (
-                <div key={index} className={`slide ${index === activeIndex ? 'active' : ''}`}>
-                    <img src={officer.imageUrl} alt={officer.name} className="officer-image" />
-                    <div className="officer-details">
-                        <h3>{officer.name}</h3>
-                        <p>{officer.position}</p>
-                        <p>{officer.bio}</p>
-                    </div>
-                </div>
-            ))}
-            <div className="indicators">
-                {officers.map((_, index) => (
-                    <span
-                        key={index}
-                        className={`indicator ${index === activeIndex ? 'active' : ''}`}
-                        onClick={() => handleSlideChange(index)}
-                    />
-                ))}
+         <div className="officer-header">
+            <div className="officer-content">
+                <img src="/pres.jpg" alt="" />
             </div>
-        </div>
-        </div>
-       </main>
-    );
-};
+            <div className="officer-content">
+                <img src="/vp.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/vp-cs.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/sec.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/asec.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/treasurer.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/atreasurer.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/auditoe.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/manager.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/pro.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/social.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/graphics.jpg" alt="" />
+            </div>           
+         </div>
+         <div className="representative">
+         <h1 className="text-gray-900 dark:text-white">
+            <span className="text-yellow-400 font-extrabold uppercase"> Representatives </span>
+          </h1>
+         </div>
+         <div className="officer-header">
+            <div className="officer-content">
+                <img src="/it1.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/cs2.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/it2.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/cs22.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/it3.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/cs3.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/it4.jpg" alt="" />
+            </div>
+            <div className="officer-content">
+                <img src="/cs4.jpg" alt="" />
+            </div>
+         </div>
+    </main>
+    </>
+  )
+}
 
-export default Officers;
+export default Officers

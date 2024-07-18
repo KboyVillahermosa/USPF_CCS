@@ -62,3 +62,28 @@
 .indicator.active {
     background-color: #555; /* Active indicator color */
 }
+.representative{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    height: 20vh;
+}
+.representative h1{
+    font-size: clamp(1.875rem, 1.0938rem + 2.5vw, 2.5rem);
+}
+.officer-header{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.officer-content img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}

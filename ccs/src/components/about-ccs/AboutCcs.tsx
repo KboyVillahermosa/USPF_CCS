@@ -39,15 +39,25 @@ const AboutCcs: React.FC = () => {
         </div>
         <div className="ccs-content">
           <h1 className="text-gray-900 dark:text-white">
-            Our{" "}
-            <span className="text-yellow-400">
-              {" "}
-              Vision{" "}
-            </span>
+            Our <span className="text-yellow-400"> Vision </span>
           </h1>
           <p className="text-gray-500 dark:text-white">
-          To be a leading organization that nurtures the next generation of tech innovators and leaders,
-           driving technological advancements and contributing to the global tech community.
+            To be a leading organization that nurtures the next generation of
+            tech innovators and leaders, driving technological advancements and
+            contributing to the global tech community.
+          </p>
+        </div>
+        <div className="ccs-content">
+          <h1 className="text-gray-900 dark:text-white">
+            Meet Our <span className="text-yellow-400"> Dedicated Team </span>
+          </h1>
+          <p className="text-gray-500 dark:text-white">
+            At the College of Computer Southern Technovators (CCSST), we are
+            proud to have a team of passionate and committed individuals who
+            drive our mission forward. Each officer and representative plays a
+            crucial role in our organization, bringing their unique skills and
+            perspectives to ensure our success and the betterment of our
+            community.
           </p>
         </div>
       </div>

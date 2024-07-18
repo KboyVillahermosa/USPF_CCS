@@ -1,11 +1,15 @@
 import React from "react";
 import "./AboutCcs.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+AOS.init();
 
 const AboutCcs: React.FC = () => {
   return (
     <main className="about-ccsst bg-blue-50 dark:bg-gray-900">
       <div className="ccs-header">
-        <div className="ccs-content">
+        <div className="ccs-content" data-aos="fade-up"
+     data-aos-duration="1000">
           <h1 className="text-gray-900 dark:text-white">
             CCSST:{" "}
             <span className="text-yellow-400">
@@ -24,7 +28,8 @@ const AboutCcs: React.FC = () => {
             industry.
           </p>
         </div>
-        <div className="ccs-content">
+        <div className="ccs-content" data-aos="fade-up"
+     data-aos-duration="1000">
           <h1 className="text-gray-900 dark:text-white">
             Our <span className="text-yellow-400"> Mission </span>
           </h1>
@@ -37,7 +42,8 @@ const AboutCcs: React.FC = () => {
             industry partnerships.
           </p>
         </div>
-        <div className="ccs-content">
+        <div className="ccs-content" data-aos="fade-up"
+     data-aos-duration="1000">
           <h1 className="text-gray-900 dark:text-white">
             Our <span className="text-yellow-400"> Vision </span>
           </h1>
@@ -47,7 +53,8 @@ const AboutCcs: React.FC = () => {
             contributing to the global tech community.
           </p>
         </div>
-        <div className="ccs-content">
+        <div className="ccs-content" data-aos="fade-up"
+     data-aos-duration="1000">
           <h1 className="text-gray-900 dark:text-white">
             Meet Our <span className="text-yellow-400"> Dedicated Team </span>
           </h1>

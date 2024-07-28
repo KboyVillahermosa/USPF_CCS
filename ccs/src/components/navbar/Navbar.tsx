@@ -1,5 +1,5 @@
 "use client";
-import { Button, Navbar, DarkThemeToggle, Dropdown } from "flowbite-react";
+import {  Navbar, DarkThemeToggle, Dropdown } from "flowbite-react";
 import "./Navbar.css";
 
 export function Component() {
@@ -25,9 +25,6 @@ export function Component() {
             <div className="dark-mode">
               <DarkThemeToggle className="mr-2" />
             </div>
-            <Button color="blue" className="mr-2">
-              Get started
-            </Button>
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>

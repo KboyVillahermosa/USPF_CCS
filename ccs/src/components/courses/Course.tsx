@@ -1,6 +1,9 @@
 import React from "react";
 import "./Course.css";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+AOS.init();
 
 const Course: React.FC = () => {
   return (
@@ -14,7 +17,9 @@ const Course: React.FC = () => {
           </div>
         </div>
         <div className="cources">
-          <div className="cources-content bg-blue-100 p-4 hover:bg-blue-200 dark:bg-gray-800 dark:hover:bg-gray-700">
+          <div className="cources-content bg-blue-100 p-4 hover:bg-blue-200 dark:bg-gray-800 dark:hover:bg-gray-700"
+           data-aos="fade-up"
+           data-aos-duration="1000">
             <h1 className="text-2xl font-extrabold uppercase leading-none tracking-tight  text-gray-900 dark:text-white">
               Bachelor of Science in Information Technology
             </h1>
@@ -41,7 +46,9 @@ const Course: React.FC = () => {
               </Link>
             </div>
           </div>
-          <div className="cources-content bg-blue-100 p-5 hover:bg-blue-200 dark:bg-gray-800 dark:hover:bg-gray-700">
+          <div className="cources-content bg-blue-100 p-5 hover:bg-blue-200 dark:bg-gray-800 dark:hover:bg-gray-700" 
+           data-aos="fade-up"
+            data-aos-duration="1000">
             <h1 className="text-2xl font-extrabold uppercase leading-none tracking-tight  text-gray-900 dark:text-white">
               Bachelor of Science in Computer Science
             </h1>

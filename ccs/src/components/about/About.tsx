@@ -3,13 +3,17 @@ import { Tabs } from "flowbite-react";
 import { HiUserCircle } from "react-icons/hi";
 import { MdDashboard } from "react-icons/md";
 import "./About.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+AOS.init();
 
 const About: React.FC = () => {
   return (
     <>
       <main className="dark:bg-gray-900 bg-blue-50">
         <div className="about-header">
-          <div className="about-content">
+          <div className="about-content"  data-aos="fade-up"
+            data-aos-duration="1000">
             <div className="overflow-x-auto">
               <Tabs aria-label="Full width tabs" style="fullWidth" className="Tabs">
                 <Tabs.Item title="Dean" icon={HiUserCircle} className="tabs">

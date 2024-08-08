@@ -4,7 +4,7 @@ import { HiUserCircle } from "react-icons/hi";
 import { MdDashboard } from "react-icons/md";
 import "./About.css";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import "aos/dist/aos.css"; 
 AOS.init();
 
 const About: React.FC = () => {
@@ -12,7 +12,8 @@ const About: React.FC = () => {
     <>
       <main className="dark:bg-gray-900 bg-blue-50">
         <div className="about-header">
-          <div className="about-content"  data-aos="fade-up"
+          <div className="about-content"  
+            data-aos="fade-up"
             data-aos-duration="1000">
             <div className="overflow-x-auto">
               <Tabs aria-label="Full width tabs" style="fullWidth" className="Tabs">
